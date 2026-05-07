@@ -54,10 +54,14 @@ class PersonAdapter(
             )
 
             // Avatar via Glide
+            val avatarUrl =
+                "https://api.dicebear.com/7.x/adventurer/png?seed=${person.firstname}"
+
             Glide.with(binding.root.context)
-                .load(person.image)
+                .load(avatarUrl)
                 .placeholder(R.drawable.ic_person)
                 .error(R.drawable.ic_person)
+                .circleCrop()
                 .into(binding.imgAvatar)
         }
     }

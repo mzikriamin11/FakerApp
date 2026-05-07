@@ -78,11 +78,16 @@ class PersonDetailActivity : AppCompatActivity() {
 
     private fun populateUi(p: Person) {
         // Header
+
         binding.tvNameHeader.text = p.fullName
+        val avatarUrl =
+            "https://api.dicebear.com/7.x/adventurer/png?seed=${p.firstname}"
+
         Glide.with(this)
-            .load(p.image)
+            .load(avatarUrl)
             .placeholder(R.drawable.ic_person)
             .error(R.drawable.ic_person)
+            .circleCrop()
             .into(binding.imgAvatarDetail)
 
         // Personal info
