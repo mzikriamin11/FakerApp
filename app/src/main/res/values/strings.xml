@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">FakerApp</string>
+
+    <!-- Drawer menu -->
+    <string name="navigation_drawer_open">Buka navigation drawer</string>
+    <string name="navigation_drawer_close">Tutup navigation drawer</string>
+    <string name="menu_persons">Daftar Person</string>
+>
+    <string name="menu_profile_developer">Profil Developer</string>
+    <string name="menu_about">Tentang Aplikasi</string>
+    <string name="header_main">Menu Utama</string>
+    <string name="header_other">Lainnya</string>
+
+    <!-- Headers -->
+    <string name="nav_header_title">FakerApp</string>
+    <string name="nav_header_subtitle">Praktikum 6 + 12</string>
+    <string name="nav_header_desc">Header navigasi</string>
+    <string name="profile_image">Foto Profil</string>
+
+    <!-- Bottom navigation (Persons) -->
+    <string name="bottom_all">Semua</string>
+    <string name="bottom_male">Laki-laki</string>
+    <string name="bottom_female">Perempuan</string>
+
+    <!-- Persons list -->
+    <string name="title_persons_list">Daftar Person</string>
+    <string name="hint_search">Cari nama, email, atau kota…</string>
+    <string name="loading">Memuat data…</string>
+    <string name="empty_data">Tidak ada data yang ditampilkan.</string>
+    <string name="error_load">Gagal memuat data: %1$s</string>
+    <string name="retry">Coba Lagi</string>
+
+    <!-- Person Detail -->
+    <string name="title_person_detail">Detail Person</string>
+    <string name="label_personal_info">Informasi Pribadi</string>
+    <string name="label_address">Alamat</string>
+    <string name="label_contact">Kontak</string>
+    <string name="label_others">Lain-lain</string>
+    <string name="label_email">Email</string>
+    <string name="label_phone">Telepon</string>
+    <string name="label_birthday">Tanggal Lahir</string>
+    <string name="label_gender">Jenis Kelamin</string>
+    <string name="label_website">Website</string>
+    <string name="label_street">Jalan</string>
+    <string name="label_building">Nomor Bangunan</string>
+    <string name="label_city">Kota</string>
+    <string name="label_zipcode">Kode Pos</string>
+    <string name="label_country">Negara</string>
+    <string name="label_coordinates">Koordinat</string>
+    <string name="action_open_map">Buka di Maps</string>
+    <string name="action_share">Bagikan</string>
+    <string name="action_save_favorite">Simpan ke Favorit</string>
+    <string name="action_remove_favorite">Hapus dari Favorit</string>
+    <string name="favorite_saved">Disimpan ke favorit</string>
+    <string name="favorite_removed">Dihapus dari favorit</string>
+    <string name="share_subject">Detail Person dari FakerApp</string>
+    <string name="error_no_maps_app">Tidak ada aplikasi maps yang terinstall</string>
+    <string name="error_no_coordinates">Data koordinat tidak tersedia</string>
+
+
+
+
+    <!-- Profile Developer (Tab Layout) -->
+    <string name="title_profile_developer">Profil Developer</string>
+    <string name="tab_about">Tentang</string>
+
+    <string name="tab_contact">Kontak</string>
+
+    <string name="dev_name">Muhammad Zikri Amin</string>
+    <string name="dev_nim">NIM.6304250090</string>
+    <string name="dev_role"> </string>
+    <string name="dev_about_text">Saya merupakan seorang mahasiswa Rekognisi Pembelajaran Lampau Untuk Program Studi Rekayasa Perangkat Lunak.</string>
+
+    <string name="dev_email">zikri@kampusmelayu.ac.id</string>
+    <string name="dev_phone">+62 821-xxxx-xxxx</string>
+    <string name="dev_website">https://kampusmelayu.ac.id</string>
+
+    <!-- About -->
+    <string name="title_about">Tentang Aplikasi</string>
+    <string name="about_app_version">Versi 1.0.0</string>
+    <string name="about_description">FakerApp adalah aplikasi  Android yang menampilkan daftar data orang yang besaral dari Indonesia secara acak menggunakan Web API publik FakerAPI.</string>
+
+    <string name="about_data_source">Sumber Data API</string>
+    <string name="about_data_source_value">https://fakerapi.it/api/v2/persons</string>
+
+
+
+</resources>

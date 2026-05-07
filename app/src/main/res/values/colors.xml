@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand: Light Blue -->
+    <color name="brand_primary">#03A9F4</color> <!-- Biru Muda (Material Light Blue 500) -->
+    <color name="brand_primary_variant">#0288D1</color> <!-- Biru Muda Gelap (Material Light Blue 700) -->
+    <color name="brand_primary_light">#B3E5FC</color> <!-- Biru Sangat Muda (Material Light Blue 100) -->
+    <color name="brand_secondary">#80CBC4</color> <!-- Teal lembut yang sangat cocok dengan biru muda -->
+
+    <!-- Surface -->
+    <color name="surface_white">#FFFFFFFF</color>
+    <color name="surface_dark">#FF121212</color>
+    <color name="background_light">#F8FBFE</color> <!-- Sedikit sentuhan biru agar tidak putih polos -->
+    <color name="background_dark">#FF121212</color>
+
+    <!-- Text -->
+    <color name="text_primary">#263238</color> <!-- Biru Gelap Keabuan (Blue Grey 900) untuk teks yang lebih lembut -->
+    <color name="text_secondary">#607D8B</color> <!-- Blue Grey 500 -->
+    <color name="text_on_primary">#FFFFFFFF</color>
+
+    <!-- Stats card colors (Variasi yang lebih soft agar serasi dengan biru) -->
+    <color name="stat_card_blue">#4FC3F7</color> <!-- Light Blue 300 -->
+    <color name="stat_card_pink">#BA68C8</color> <!-- Purple Light -->
+    <color name="stat_card_green">#4DB6AC</color> <!-- Teal Light -->
+    <color name="stat_card_orange">#FFB74D</color> <!-- Orange Light -->
+
+    <!-- Misc -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="divider">#CFD8DC</color> <!-- Warna garis pemisah yang lebih kebiruan -->
+</resources>

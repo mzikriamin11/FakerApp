@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.FakerApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryVariant">@color/brand_primary_variant</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorSecondary">@color/brand_secondary</item>
+        <item name="colorSecondaryVariant">@color/brand_secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+
+    <style name="Theme.FakerApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FakerApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FakerApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Reusable text styles -->
+    <style name="TextSectionHeader">
+        <item name="android:textSize">@dimen/text_section</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/brand_primary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <style name="TextDetailLabel">
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TextDetailValue">
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

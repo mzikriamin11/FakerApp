@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/margin_small"
+    android:layout_marginVertical="@dimen/margin_small"
+    app:cardCornerRadius="@dimen/card_corner"
+    app:cardElevation="@dimen/card_elevation"
+    app:cardUseCompatPadding="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_medium">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="@dimen/avatar_small"
+            android:layout_height="@dimen/avatar_small"
+            android:contentDescription="@string/profile_image"
+            android:src="@drawable/ic_person"
+            app:civ_border_color="@color/brand_primary_light"
+            app:civ_border_width="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="@dimen/text_title"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/chip_gender"
+            app:layout_constraintStart_toEndOf="@id/img_avatar"
+            app:layout_constraintTop_toTopOf="@id/img_avatar"
+            tools:text="Budi Santoso" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:textSize="11sp"
+            app:chipMinHeight="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/img_avatar"
+            tools:text="male" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_avatar"
+            app:layout_constraintTop_toBottomOf="@id/tv_name"
+            tools:text="budi.santoso@example.com" />
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="240dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="4dp"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            app:drawableStartCompat="@drawable/ic_map"
+            app:drawableTint="@color/brand_primary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/img_avatar"
+            app:layout_constraintTop_toBottomOf="@id/tv_email"
+            tools:text="Pekanbaru, Indonesia" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

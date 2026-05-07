@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_all"
+        android:icon="@drawable/ic_person_all"
+        android:title="@string/bottom_all" />
+    <item
+        android:id="@+id/bottom_male"
+        android:icon="@drawable/ic_people_m"
+        android:title="@string/bottom_male" />
+    <item
+        android:id="@+id/bottom_female"
+        android:icon="@drawable/ic_people_f"
+        android:title="@string/bottom_female" />
+</menu>
